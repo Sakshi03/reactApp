@@ -1,9 +1,6 @@
 .App {
   text-align: center;
 }
-
-
-
 .App-intro {
   font-size: large;
   border: 2px solid darkblue;
@@ -11,9 +8,4 @@
   width:500px;
  padding-bottom: 30px;
 
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
