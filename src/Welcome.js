@@ -23,7 +23,7 @@ function getNumberB() {
 
 function postSumToPage(c) {
   var answer = c.toString();
-  mySum.innerHTML = "<h4>SUM :</h4>" + answer;
+  mySum.innerHTML = "<h4>SUM:</h4>" + answer;
 }
 
             }
