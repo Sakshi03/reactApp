@@ -21,22 +21,22 @@ constructor(props) {
   }
 
   addValues(value1, value2) {
-    this.setState({result: parseInt(value1) + parseInt(value2)});
+    this.setState({result: parseInt(value1, 10) + parseInt(value2,10)});
     console.log(this.state.result)
   }
   
   subtractValues(value1, value2) {
-    this.setState({result: parseInt(value1) - parseInt(value2)});
+    this.setState({result: parseInt(value1,10) - parseInt(value2,10)});
     console.log(this.state.result)
   }
   
   multiplyValues(value1, value2) {
-    this.setState({result: parseInt(value1) * parseInt(value2)});
+    this.setState({result: parseInt(value1,10) * parseInt(value2,10)});
     console.log(this.state.result)
   }
   
   divideValues(value1, value2) {
-    this.setState({result: parseInt(value1) / parseInt(value2)});
+    this.setState({result: parseInt(value1,10) / parseInt(value2,10)});
     console.log(this.state.result)
   }
 render() {
